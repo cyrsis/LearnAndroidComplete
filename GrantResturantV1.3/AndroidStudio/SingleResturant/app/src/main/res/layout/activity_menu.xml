@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/title_bg_search" >
+
+        <Button
+            android:id="@+id/btn_cart"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cart_btn"
+            android:gravity="center|bottom"
+            android:paddingBottom="13dp"
+            android:text="0"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/img_title"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/title_menu" />
+
+        <TextView
+            android:id="@+id/txt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_cart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="@string/seacrarea"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/search_btn" />
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="55dp"
+            android:background="@android:color/transparent"
+            android:hint="@string/edithint"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#cfcfcf" >
+        </EditText>
+    </RelativeLayout>
+    <!--
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <ImageView
+            android:id="@+id/img_header"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/title" />
+
+        
+        <ImageView
+            android:id="@+id/img_header"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:background="#363B3C" />
+        <ImageView 
+            android:id="@+id/img_title"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_menu"/>
+       
+
+        <Button
+            android:id="@+id/btn_cart"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/cart_btn"
+            android:gravity="center|bottom"
+            android:paddingBottom="13dp"
+            android:text="0"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/rel_title"
+        android:background="@drawable/title_bg_search" >
+
+        <TextView
+            android:id="@+id/txt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/seacrarea"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/search_btn" />
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="55dp"
+            android:background="@android:color/transparent"
+            android:hint="Search by item name"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#cfcfcf" >
+        </EditText>
+    </RelativeLayout>
+    -->
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/adView"
+        android:layout_below="@+id/rel_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#fff" >
+    </ListView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_key" >
+    </com.google.android.gms.ads.AdView>
+
+    <RelativeLayout
+        android:id="@+id/rl_infodialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+</RelativeLayout>

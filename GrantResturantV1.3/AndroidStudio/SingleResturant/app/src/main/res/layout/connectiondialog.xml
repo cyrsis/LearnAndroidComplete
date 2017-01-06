@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#009B7C" >
+
+        <TextView
+            android:id="@+id/txt_thank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Thank You"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_thank"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="You have successfully booked your table."
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_dia"
+            android:background="#3E80B4" >
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:clickable="true"
+            android:text="Ok"
+            android:textColor="#009B7C"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

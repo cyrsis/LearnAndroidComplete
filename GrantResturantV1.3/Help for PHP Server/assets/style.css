@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background-color:#B1B0B1:;
+	font-family:AvenirNext-DemiBold;
+	font-size:15px;
+	color:white;
+    font-weight:bold;
+	}
+    h1{text-align:left;
+		font-family:AvenirNext-DemiBold;
+		font-size:30px;
+		color:#000;
+		font-weight:600;
+		padding-left: 5%;
+		}
+	h2{text-align:left;
+		font-family:AvenirNext-DemiBold;
+		font-size:25px;
+		color:#000;
+		font-weight:500;
+		padding-left: 5%;
+		}
+        h3{text-align:left;
+		font-family:AvenirNext-DemiBold;
+		font-size:22px;
+		color:#666666;
+		font-weight:500;
+		padding-left: 5%;
+		}
+		ul li,p,li{
+			text-align:justify;
+    font-family:AvenirNextCondensed-Regular;
+            padding-right: 2%;
+            padding-left: 2%;
+            font-size:18px;
+            color:#000;
+            font-weight:400;
+			}
+            td{
+            text-align:justify;
+font-family:AvenirNextCondensed-Regular;
+            font-size:15px;
+            color:#013e74;
+            font-weight:400;
+            }
+        table{
+			text-align:justify;
+            font-family:AvenirNextCondensed-Regular;
+            padding-right: 2%;
+            padding-left: 2%;
+            font-size:15px;
+            color:white;
+            border:1px solid white;border-collapse:collapse;
+			}
+th{
+color:#666666;
+font-width:600;
+background-color:#003366;
+}
+        tr,td{
+            border:1px solid #003366;
+          }  
+		hr{
+			background-color:black !important;
+			height:1px;
+			}
+	#wrapper{background-color:#dadada;
+		width:100%;
+		height:auto;
+		padding:0px;
+		margin:auto;
+		}
+		#head-part-main{
+		
+		
+		}
+        #main{background-color:#0x780E0505;
+		width:100%;
+		height:auto;
+		padding:0px;
+		margin:auto;
+        color:#523838;
+            font-weight:bold;
+border-radius: 4px 4px 4px 4px;
+		}
+		#head-part-main-image{background-color:#dadada;
+		width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+margin-bottom:3%;
+		}
+				 
+				#game-total-image-div-02{background-color:#dadada;
+				width:98%;
+			height:auto;
+			float:left;
+		margin: 20px 0 0 53px;
+			border:1px #666 solid;
+				border-radius: 4px 4px 4px 4px;
+				margin-left:1%;
+				}
+			#summary-contant {background-color: #B1B0B1;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+margin-bottom:3%;
+			}
+			#video-contant {background-color: #B1B0B1;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 20px 20px 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+margin-bottom:3%;
+margin-top:3%;
+			}
+			#summary-contant-02{background-color:#096;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+			}
+			#summary-contant-03{background-color: #096;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+			}
+			#summary-contant-04{background-color:#096;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+			}
+            #block
+			{
+			   background-color: #096;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%; 
+padding-left:1%;
+			}
+			#summary-table-part{background-color: #096;
+width: 98%;
+height: auto;
+float: left;
+margin: 20px 0 0 53px;
+border-radius: 4px 4px 4px 4px;
+margin-left: 1%;
+margin-bottom:5%;
+			}
+            table
+            {
+            font-size:15px;
+            margin-bottom:5%;
+
+            }
+            img
+            {
+           padding-bottom:4%;
+            }
+            
+		.img1 {
+    max-width: 100%;
+}

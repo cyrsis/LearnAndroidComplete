@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_back1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8000000" >
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_close"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_cancel" />
+
+</RelativeLayout>

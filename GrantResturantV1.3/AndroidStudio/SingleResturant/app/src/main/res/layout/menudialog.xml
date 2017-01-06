@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#BF000000" >
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/rel_mainlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="70dp" >
+
+                <RelativeLayout
+                    android:id="@+id/rel_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <RelativeLayout
+                        android:id="@+id/rel_image"
+                        android:layout_width="fill_parent"
+                        android:layout_height="170dp" >
+
+                        <ImageView
+                            android:id="@+id/img_subname1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="170dp"
+                            android:background="@drawable/back_img"
+                            android:scaleType="fitXY" />
+
+                        <ImageView
+                            android:id="@+id/img_subname"
+                            android:layout_width="fill_parent"
+                            android:layout_height="170dp"
+                            android:scaleType="fitXY" />
+
+                        <ProgressBar
+                            android:id="@+id/progressmenu"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:progressDrawable="@drawable/progress" />
+
+                        <RelativeLayout
+                            android:id="@+id/rel_dollar"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/dollar_btn" >
+
+                            <ImageView
+                                android:id="@+id/img_top"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentTop="true"
+                                android:background="#039C7B" />
+
+                            <TextView
+                                android:id="@+id/txt_dollar1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text=""
+                                android:textColor="#fff"
+                                android:textSize="20dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rel_bottom"
+                            android:layout_width="fill_parent"
+                            android:layout_height="70dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/text_bg" >
+
+                            <TextView
+                                android:id="@+id/txt_namemain"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginBottom="3dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="5dp"
+                                android:lines="1"
+                                android:text=""
+                                android:textColor="#fff"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:id="@+id/txt_name"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/txt_namemain"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="5dp"
+                                android:lines="1"
+                                android:text=""
+                                android:textColor="#fff"
+                                android:textSize="15dp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rel_order"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/rel_image"
+                        android:background="#fff" >
+
+                        <TextView
+                            android:id="@+id/txt_order"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/nooforder"
+                            android:textColor="#009B7C"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_minus"
+                            android:layout_width="45dp"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/btn_display"
+                            android:background="@drawable/minus_btn" />
+
+                        <Button
+                            android:id="@+id/btn_display"
+                            android:layout_width="45dp"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/btn_add"
+                            android:background="@drawable/number_bg"
+                            android:textColor="#009B7C" />
+
+                        <TextView
+                            android:id="@+id/txt_dollar"
+                            android:layout_width="45dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="#009B7C"
+                            android:textSize="16dp" />
+
+                        <Button
+                            android:id="@+id/btn_add"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/txt_dollar"
+                            android:background="@drawable/plus_btn" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rel_desc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="160dp"
+                        android:layout_below="@+id/rel_order"
+                        android:background="#fff" >
+
+                        <TextView
+                            android:id="@+id/txt_des"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/description"
+                            android:textColor="#009B7C"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txt_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt_des"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text=""
+                            android:textColor="#3c3c3c"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="380dp"
+                        android:background="@drawable/untitled" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/rel_main"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_addcart"
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/add_cart_btn"
+                        android:text="@string/addcart"
+                        android:textColor="#fff"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/cancel_btn"
+                        android:text="@string/cancel"
+                        android:textColor="#fff"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

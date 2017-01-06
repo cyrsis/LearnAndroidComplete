@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grant Restaurant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aboutus">Aboutus</string>
+    <string name="title_activity_offer">Offer</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_select_item">SelectItem</string>
+    <string name="title_activity_book_table">BookTable</string>
+    <string name="title_activity_orderdetail">Orderdetail</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="title_activity_image_view_pager">ImageViewPager</string>
+    <string name="dollar_sign">$</string>
+    <string name="percentage_sign">12.5% =</string>
+    <!-- <string name="liveurl">http://espiritusantoradio.com.ar/resta1/</string> -->
+    <!--  <string name="liveurl">http://maxx.qorder.nl/</string>  -->
+      <string name="liveurl">http://grantrestaurant.freaktemplate.com/</string>  
+    <!-- <string name="liveurl">http://restaurantelatino.com/</string> -->
+    <string name="title_activity_setting">Setting</string>
+    <string name="pref_about_application">ABOUT APPLICATION</string>
+    <string name="pref_version_summary">1.0</string>
+    <string name="pref_version">Version</string>
+    <string name="pref_about_developer">ABOUT DEVELOPER</string>
+    <string name="app_recipient">admin@redixbit.com</string>
+    <string name="pref_contact_app">Contact Us</string>
+    <string name="pref_contact_app_summary">For more information contact us.</string>
+    <string name="app_subject">Coupon</string>
+    <string name="email_no_client">No email client installed.</string>
+    <string name="email_choose_from_client">Choose an email client from...</string>
+    <string name="loading">Loading..</string>
+    <string name="nodata">No Data Found</string>
+
+    <!-- Home page Localization -->
+    <string name="menu">Menu</string>
+    <string name="booktable">Order Detail</string>
+    <string name="location">Location</string>
+    <string name="call">CALL</string>
+    <string name="website">WEBSITE</string>
+    <string name="mail">MAIL</string>
+    <string name="gallery">Gallery</string>
+    <string name="map">Map</string>
+    <string name="offers">Offers</string>
+    <string name="notes">Share</string>
+    <string name="aboutus">About Us</string>
+    <string name="nointernet">No Internet Connection.</string>
+
+    <!-- Menu page localize -->
+    <string name="seacrarea">Search area</string>
+    <string name="nooforder">No. Of Order</string>
+    <string name="description">Description</string>
+    <string name="addcart">Add to Cart</string>
+    <string name="cancel">Cancel</string>
+    <string name="noselect">Select Atleast one item.</string>
+    <string name="orderplace">Your order is successfully placed in cart.</string>
+    <string name="edithint">Search by item name</string>
+
+    <!-- Book table localize -->
+    <string name="booktableheader1">Book Table - Order Detail</string>
+    <string name="servicetax">Service Tax</string>
+    <string name="total">Total</string>
+    <string name="ordertext">Book Table in Restaurant</string>
+    <string name="homedel">Order food for Home Delivery</string>
+    <string name="next">Next</string>
+    <string name="booktableheader2">Book Table - Order Detail</string>
+    <string name="nooforderbook">No. Of Order</string>
+    <string name="datetime">Date &amp; Time</string>
+    <string name="fullname">Full Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="comments">Comments</string>
+    <string name="booktablebtn">BOOK TABLE</string>
+    <string name="emptycart">Your cart is currently empty.</string>
+    <string name="booked">Your order is successfully booked.</string>
+    <string name="notbooked">Please try again.Your order is not booked.</string>
+
+    <!-- About us -->
+
+    <string name="aboutparagraph1">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</string>
+    <string name="aboutparagraph2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</string>
+    <string name="aboutparagraph3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "</string>
+    <string name="aboutparagraph4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="aboutparagraph5">Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+
+    <!-- ads detail -->
+    <string name="insertial_ad_key">ca-app-pub-3730886167471578/1104021244</string>
+    <string name="banner_ad_key">ca-app-pub-6257913950558441/3422902017</string>
+    <string name="bannerads">yes</string>
+    <string name="insertialads">yes</string>
+
+    <!-- push notification -->
+
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="title_activity_message">Message</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Quit">Exit?</string>
+    <string name="statementquit">Do you really want to exit?</string>
+    <string name="title_activity_splash">Splash</string>
+	<string name="sharelink">Share</string>
+	
+	 <string name="personalinfo">Personal Information</string>
+    <string name="names">NAME :</string>
+     <string name="address">Address</string>
+    <string name="reference">EMAIL :</string>
+    <string name="mob">Mo. NUMBER :</string>
+    <string name="addressper">ADDRESS :</string>
+    <string name="neighbour">NEIGHBOURHOOD :</string>
+    <string name="cityper">CITY :</string>
+    <string name="zip">ZIPCODE :</string>
+    <string name="statepr">STATE :</string>
+    <string name="details">DETAIL :</string>
+    
+    <string name="internet">Internet Connection Error</string>
+    <string name="internettext">Please connect to working Internet connection</string>
+    
+    <string name="delete">Delete?</string>
+    <string name="deletetext">Do you really want to delete this order?</string>
+</resources>

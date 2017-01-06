@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: info@phpgang.com <info@phpgang.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hi_IN\n"
+
+# word 1
+msgid "Hello World"
+msgstr "हेलो विश्व"
+
+# word 2
+msgid "My name is"
+msgstr "मेरा नाम है"
+
+# word 3
+msgid "janak"
+msgstr "जनक"

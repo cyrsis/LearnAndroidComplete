@@ -1,0 +1,553 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: info@phpgang.com <info@phpgang.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fr_FR\n"
+
+# word 1
+msgid "Restaurant Admin | Dashboard"
+msgstr "Restaurant admin | Tableau de bord"
+
+# word 2
+msgid "Welcome"
+msgstr "Bienvenue"
+
+# word 3
+msgid "Logged in as"
+msgstr "connecté en tant que"
+
+# word 4
+msgid "logout"
+msgstr "se déconnecter"
+
+# word 5
+msgid "Home"
+msgstr "Accueil"
+
+# word 6
+msgid "Restaurant"
+msgstr "Restaurant"
+
+# word 7
+msgid "Restaurant Detail"
+msgstr "Détail restaurant"
+
+# word 9
+msgid "Menu"
+msgstr "le menu"
+
+# word 10
+msgid "Order"
+msgstr "Commande"
+
+# word 11
+msgid "Offers"
+msgstr "Des offres"
+
+# word 12
+msgid "Set Currency"
+msgstr "Set devise"
+
+# word 13
+msgid "Set language"
+msgstr "Set langue"
+
+# word 14
+msgid "Web Service"
+msgstr "Service Web"
+
+# word 15
+msgid "Help"
+msgstr "Aidez-moi"
+
+# word 16
+msgid "Set Your Currency"
+msgstr "Fixer votre devise"
+
+# word 17
+msgid "Select Currency"
+msgstr "Sélectionnez la devise"
+
+# word 18
+msgid "Close"
+msgstr "Près"
+
+# word 19
+msgid "Save changes"
+msgstr "Sauvegarder les changements"
+
+# word 20
+msgid "Set Your language"
+msgstr "Définir votre langue"
+
+# word 21
+msgid "Select Language"
+msgstr "Choisir la langue"
+
+# word 22
+msgid "Select Your Language"
+msgstr "Choisissez votre langue"
+
+# word 23
+msgid "Currency Set Successfully"
+msgstr "Réglez devise succès"
+
+# word 24
+msgid "Language Set Successfully"
+msgstr "Langue Réglage de succès"
+
+# word 25
+msgid "Quick Stats"
+msgstr "Statistiques "
+
+# word 26
+msgid "Today's Order"
+msgstr "D'aujourd'hui"
+
+# word 27
+msgid "Past Orders"
+msgstr "Les commandes passées"
+
+# word 28
+msgid "Total Orders"
+msgstr "total des commandes"
+
+# word 29
+msgid "Name"
+msgstr "prénom"
+
+# word 30
+msgid "People"
+msgstr "Personnes"
+
+# word 32
+msgid "Comment"
+msgstr "Commentaire"
+
+# word 33
+msgid "Description"
+msgstr "Description"
+
+# word 34
+msgid "Created at"
+msgstr "Créé à"
+
+# word 35
+msgid "Action"
+msgstr "action"
+
+# word 36
+msgid "Are You Sure You Want To Delete"
+msgstr "Êtes vous sur de vouloir supprimer"
+
+# word 37
+msgid "Order Delete Successfully"
+msgstr "Afin Supprimer succès"
+
+# word 38
+msgid "Try Again Please"
+msgstr "Try Again S'il vous plaît"
+
+# word 39
+msgid "Delete"
+msgstr "Effacer"
+
+# word 40
+msgid "Restaurant Admin | Past Orders"
+msgstr "Restaurant admin | Les commandes passées"
+
+# word 40
+msgid "Restaurant Admin | Total Orders"
+msgstr "Restaurant admin | total des commandes"
+
+# word 40
+msgid "Restaurant Admin | Food Category"
+msgstr "Restaurant admin | Catégorie d'aliments"
+
+# word 40
+msgid "Image"
+msgstr "image"
+
+# word 40
+msgid "View"
+msgstr "Vue"
+
+# word 40
+msgid "Edit"
+msgstr "modifier"
+
+# word 40
+msgid "Category Name"
+msgstr "Nom de catégorie"
+
+# word 40
+msgid "Select Image"
+msgstr "Sélectionner l'image"
+
+# word 40
+msgid "View Category Menu For"
+msgstr "Voir Catégorie Menu Pour"
+
+# word 40
+msgid "Price"
+msgstr "Prix"
+
+# word 40
+msgid "Edit Food Category For"
+msgstr "Modifier la catégorie d'aliments Pour"
+
+# word 40
+msgid "Change Image"
+msgstr "Changer l'image"
+
+# word 40
+msgid "Restaurant Admin | Images"
+msgstr "Restaurant admin | Des images"
+
+# word 40
+msgid "Restaurant Admin | Detail"
+msgstr "Restaurant admin | Détail"
+
+# word 40
+msgid "Restaurant Image"
+msgstr "restaurant image"
+
+# word 40
+msgid "Add Restaurant Images"
+msgstr "Ajouter Images Restaurant"
+
+# word 40
+msgid "Select Images"
+msgstr "Sélectionner les images"
+
+# word 40
+msgid "Add Images"
+msgstr "Ajouter des images"
+
+# word 40
+msgid "Cancel"
+msgstr "Annuler"
+
+# word 40
+msgid "Images add Successfully"
+msgstr "Images ajoutent succès"
+
+# word 40
+msgid "Restaurant Name"
+msgstr "Nom du restaurant"
+
+# word 40
+msgid "Line 1 Address"
+msgstr "Ligne 1 Adresse"
+
+# word 40
+msgid "Country"
+msgstr "Pays"
+
+# word 40
+msgid "State"
+msgstr "Etat"
+
+# word 40
+msgid "Phone"
+msgstr "Téléphone"
+
+# word 40
+msgid "Email"
+msgstr "Email"
+
+# word 40
+msgid "Website"
+msgstr "Site Internet"
+
+# word 40
+msgid "Latitude"
+msgstr "Latitude"
+
+# word 40
+msgid "Longitude"
+msgstr "Longitude"
+
+# word 40
+msgid "Update Detail"
+msgstr "Mise à jour détaillée"
+
+# word 40
+msgid "Add Detail"
+msgstr "Ajouter Détail"
+
+# word 40
+msgid "Restaurant Detail Add Successfully"
+msgstr "Restaurant Détail succès"
+
+# word 40
+msgid "Restaurant Detail Update Successfully"
+msgstr "Restaurant Détail jour avec succès"
+
+# word 40
+msgid "Add New Menu"
+msgstr "Ajouter un nouveau menu"
+
+# word 40
+msgid "Restaurant Menu"
+msgstr "restaurant menu"
+
+# word 40
+msgid "Food Category"
+msgstr "Catégorie d'aliments"
+
+# word 40
+msgid "Menu Name"
+msgstr "Menu Nom"
+
+# word 40
+msgid "Menu Id"
+msgstr "Menu Id"
+
+# word 40
+msgid "Category Description"
+msgstr "catégorie Description"
+
+# word 40
+msgid "Category Delete Successfuly"
+msgstr "Catégorie supprimé avec succès"
+
+# word 40
+msgid "Menu Add Successfully"
+msgstr "Menu Ajouter succès"
+
+# word 40
+msgid "Menu Update Successfully"
+msgstr "Mise à jour du menu succès"
+
+# word 40
+msgid "Edit Menu For"
+msgstr "Menu Edition Pour"
+
+# word 40
+msgid "Select Food Category"
+msgstr "Sélectionnez la catégorie d'aliments"
+
+# word 40
+msgid "Restaurant Admin | Orders"
+msgstr "Restaurant admin | Commandes"
+
+# word 40
+msgid "Restaurant Orders"
+msgstr "restaurants commandes"
+
+# word 40
+msgid "Add New Offers"
+msgstr "Ajouter de nouvelles offres"
+
+# word 40
+msgid "Restaurant Offers"
+msgstr "Offres sur les restaurants"
+
+# word 40
+msgid "Title"
+msgstr "Titre"
+
+# word 40
+msgid "Offers Delete Successfuly"
+msgstr "Offres supprimé avec succès"
+
+# word 40
+msgid "Offers Add Successfully"
+msgstr "Offres Ajouter succès"
+
+# word 40
+msgid "Offers Update Successfully"
+msgstr "Offres de mise à jour avec succès"
+
+# word 40
+msgid "Restaurant Admin | Offers"
+msgstr "Restaurant admin | Des offres"
+
+# word 40
+msgid "Update Offers"
+msgstr "Offres de mise à jour"
+
+# word 40
+msgid "Web Services"
+msgstr "Services Web"
+
+# word 40
+msgid "Json Url"
+msgstr "Json Url"
+
+# word 40
+msgid "Restaurant Admin | Web Services"
+msgstr "Restaurant admin | Services Web"
+
+# word 40
+msgid "How To Add / Update Your Restaurant Detail?"
+msgstr "Comment Ajouter / Mettre à jour votre restaurant Détail?"
+
+# word 40
+msgid "Select Restaurant Dropdown and Click And Lunch For"
+msgstr "Sélectionnez restaurant déroulant et cliquez et déjeuner pour"
+
+# word 40
+msgid "You Can See Left Side Two Option"
+msgstr "Vous pouvez voir Left Side Deux Option"
+
+# word 40
+msgid "You can Select Otion and Update Your Restaurant Detail."
+msgstr "Vous pouvez sélectionner l'option Mettre à jour et Votre Restaurant Détail."
+
+# word 40
+msgid "How To Add Food Category ?"
+msgstr "Comment faire pour ajouter la catégorie d'aliments?"
+
+# word 40
+msgid "Select Restaurant Dropdown You See Three Option Lunch"
+msgstr "Sélectionnez restaurant déroulante vous voyez trois Option Déjeuner"
+
+# word 40
+msgid "than Left Side See"
+msgstr "que Left Side Voir"
+
+# word 40
+msgid "Add New Food Category"
+msgstr "Ajouter une nouvelle catégorie d'aliments"
+
+# word 40
+msgid "Button Click And Lunch Show Popup Form Write Detail and Save Changes to show Alert Message Category Add Successfully.and display added category center portlet box with three option"
+msgstr "Cliquez sur le bouton et le déjeuner Show Popup Formulaire Ecrire Détail et Enregistrer les modifications pour montrer Message d'alerte Ajouter Catégorie affichage Successfully.and ajouté catégorie case centre de portlet avec trois options"
+
+# word 40
+msgid "View , Edit , Delete"
+msgstr "Voir, Edit, Delete"
+
+# word 40
+msgid "to action for your category."
+msgstr "à l'action pour ur catégorie."
+
+# word 40
+msgid "How To Add / Update / Delete Restaurant Menu?"
+msgstr "Comment faire pour ajouter / modifier / supprimer menu de restaurant?"
+
+# word 40
+msgid "Select Restaurant Dropdown see three option and click to lunch for"
+msgstr "Sélectionnez restaurant déroulant vois trois option et cliquez pour le déjeuner pour"
+
+# word 40
+msgid "you can see left side"
+msgstr "vous pouvez voir à gauche"
+
+# word 40
+msgid "click To open new popup fill detail and click to save change button to add successfully your menu."
+msgstr "Cliquez ici pour ouvrir de nouveaux détails contextuel de remplissage et cliquez sur pour enregistrer les changements bouton pour ajouter avec succès votre menu."
+
+# word 40
+msgid "update"
+msgstr "mettre à jour"
+
+# word 40
+msgid "menu click to edit button to open popup for selected menu detail changes detail and click to save change button to update menu successfully."
+msgstr "Menu cliquer sur le bouton pour modifier pour ouvrir contextuel pour sélectionné détail du menu change détail et cliquez sur le bouton pour enregistrer le changement de mettre à jour le menu succès."
+
+# word 40
+msgid "menu detail yuo can click to delete button to show popup for confirmation are sure want to delete click"
+msgstr "détail de menu, vous pouvez cliquer sur le bouton supprimer pour montrer le popup de confirmation sont sûr de vouloir supprimer clic"
+
+# word 40
+msgid "ok"
+msgstr "D'accord"
+
+# word 40
+msgid "button to delete menu successfully."
+msgstr "bouton pour supprimer le menu succès."
+
+# word 40
+msgid "How to delete order ?"
+msgstr "Comment supprimer ordre?"
+
+# word 40
+msgid "open this link"
+msgstr "Ouvrez ce lien"
+
+# word 40
+msgid "Delete order"
+msgstr "supprimer l'ordre"
+
+# word 40
+msgid "to show all today's order with right side"
+msgstr "pour montrer l'ordre de tous aujourd'hui avec côté droit"
+
+# word 40
+msgid "options and left site three option to filter orders and delete order with search."
+msgstr "options et côté gauche de trois option pour filtrer et supprimer des commandes afin de recherche."
+
+# word 40
+msgid "How To Add / Update / Delete Offers Detail?"
+msgstr "Comment faire pour ajouter / modifier / supprimer offre des détails?"
+
+# word 40
+msgid "Open This Link"
+msgstr "Ouvrez ce lien"
+
+# word 40
+msgid "You can see left side"
+msgstr "Vous pouvez voir à gauche"
+
+# word 40
+msgid "Click To Add New Offers show popup form fill all detail and click save change button to add offers successfully ."
+msgstr "Cliquez pour ajouter de nouvelles offres montrent formulaire popup remplir tous les détails et cliquez sur Enregistrer les changements bouton pour ajouter des offres avec succès."
+
+# word 40
+msgid "Edit Offers"
+msgstr "Modifier Offres"
+
+# word 40
+msgid "See Left Side button click to view popup for selected offers detail changes detail and click save change button update offers detai."
+msgstr "Voir touche côté gauche cliquez pour voir contextuel pour sélectionné propose détail change détail et cliquez sur Enregistrer mise à jour changement touche offre des détails."
+
+# word 40
+msgid "Delete Offers"
+msgstr "Offres supprimer"
+
+# word 40
+msgid "click to delete button to show  confirm box are sure so you click for"
+msgstr "cliquez sur le bouton supprimer pour montrer boîte de confirmation sont sûrs si vous cliquez pour"
+
+# word 40
+msgid "button to delete offers."
+msgstr "bouton pour supprimer offres."
+
+# word 40
+msgid "How to set your currency ?"
+msgstr "Comment configurer votre monnaie?"
+
+# word 40
+msgid "you Can See header menu click"
+msgstr "Vous pouvez voir le menu d'en-tête clic"
+
+# word 40
+msgid "option to show popup with list of currency select one option and click to save change button to set your currency."
+msgstr "Option pour montrer le popup avec la liste de la monnaie sélectionner une option et cliquez pour sauver le changement touche pour régler votre monnaie."
+
+# word 40
+msgid "How To Chnage Your Login Username And Password ?"
+msgstr "Comment changer votre nom d'utilisateur et mot de passe Connexion?"
+
+# word 40
+msgid "First Of You Open"
+msgstr "Première Of You Ouvrir"
+
+# word 40
+msgid "You Search For :"
+msgstr "Vous recherche pour:"
+
+# word 40
+msgid "Search for :  Help"
+msgstr "Rechercher: Aide"

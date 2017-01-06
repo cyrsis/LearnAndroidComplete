@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="freaktemplate.singlerestau.Message" >
+
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <ImageView
+            android:id="@+id/img_header"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rel_title"
+        android:background="@drawable/bg_noti" >
+
+        <RelativeLayout
+            android:id="@+id/rel_top"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/txt_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/booktable"
+                android:textColor="#009C7D"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list_message"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/rel_top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:divider="#F1F2F2"
+            android:dividerHeight="6dp" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

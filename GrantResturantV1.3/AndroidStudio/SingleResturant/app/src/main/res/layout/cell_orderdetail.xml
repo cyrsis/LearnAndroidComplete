@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/cell_1" >
+
+        <TextView
+            android:id="@+id/txt_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/txt_price"
+            android:lines="1"
+            android:text=""
+            android:textColor="#009C7D"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/rel_total"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/btn_minus" >
+
+            <TextView
+                android:id="@+id/txt_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:textColor="#848382"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_numberofitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/rel_total"
+            android:text=""
+            android:textColor="#848382"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:layout_toLeftOf="@+id/txt_numberofitem"
+            android:text=""
+            android:textColor="#848382" />
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/deleteicon"
+            android:clickable="false"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</RelativeLayout>
