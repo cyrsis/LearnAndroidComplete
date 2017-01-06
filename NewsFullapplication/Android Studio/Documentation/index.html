@@ -1,0 +1,455 @@
+<em><!DOCTYPE HTML>
+<html>
+<head>
+<title>Documentation by "Viavi WebTech-India"</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<section id="header">
+  <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+    <h4 id="logo"><a href="#">News Application</a></h4>
+  </header>
+  <nav id="nav">
+    <ul>
+      <li><a href="#one" class="active">Table of Contents</a></li>
+       <li><a href="#four">News Application Page</a></li>
+    <li><a href="#three" class="active">Monetization</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <ul class="icons">      
+      <li><a href="https://www.facebook.com/viaviweb" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="https://twitter.com/viaviwebtech" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="https://www.linkedin.com/in/viaviwebtech" target="_blank" class="icon fa fa-linkedin"><span class="label">Instagram</span></a></li>
+      <li><a href="https://plus.google.com/+ViaviWebtech" target="_blank" class="icon fa fa-google-plus"><span class="label">Email</span></a></li>
+    </ul>
+  </footer>
+</section>
+<div id="wrapper">
+  <div id="main">
+    <section id="one">
+      <div class="container">
+        <header class="major">
+          <h2>News Application</h2>
+          
+        </header>
+        <div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 22 Aug 2016<br>
+					Company: Viavi Webtech -India<br>
+					Contact: <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech" style='color:#06F' target="_blank">CodeCanyon Profile</a>
+</strong>
+				</p>
+			</div>
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech" style='color:#06F' target="_blank">here</a>. Thanks so much!</p>
+			</div>
+		</div>
+		<h1 id="toc" > Table of Contents</h1>
+			<li><a href='#eclipseversion' style="color:#06F">Which Android Studio version is needed?</a></li>
+			<li><a href='#importproject' style="color:#06F">How to open the project in Android Studio?</a></li>			
+			<li><a href='#packagename' style="color:#06F">How to change the package name?</a></li>
+			<li><a href='#appname' style="color:#06F">How to change app name?</a></li>
+			<li><a href='#serverconfig' style="color:#06F">How to Configure Webservice In Your Server?</a></li>	
+			<li><a href='#serverurl' style="color:#06F">Where to put Server Url in Application?</a></li>	
+			<li><a href='#howtoadd' style="color:#06F">How to add category and its items into webservice?</a></li>
+			<li><a href='#admob_id' style="color:#06F">How to change AdMob publisher id?</a></li>
+ 			<li><a href='#about' style="color:#06F">How to change 'About' section?</a></li>		
+			<li><a href='#splash' style="color:#06F">How to change 'Splash Screen and Application Icon & More App Link' ?</a></li>
+      <li><a href='#parse' style="color:#06F">How to Change One Signal Notification App Id And Sender Id in Application?</a></li>		
+		 	<li><a href="#graphics" style="color:#06F">Graphics</a></li>			
+			<li><a href="#showcase" style="color:#06F">App Showcase</a></li>
+			<li><a href="#rating" style="color:#06F">Rating</a></li>
+      <li><a href="#credits" style="color:#06F">Credits</a></li>
+
+	<section id="eclipseversion">
+      <div class="container">
+        <br><h2>Which Android Studio version is needed? -> <a style="color:#06F" href="#toc">top</a> </h2><br>
+        		<p>
+			Latest Android Studio version is recommended, which can be downloaded from here:<br />
+			<a style="color:#06F" href='http://developer.android.com/intl/es/sdk/index.html' target='_blank'>http://developer.android.com/intl/es/sdk/index.html</a>
+		</p>
+          <a href="#eclipseversion"><img src="images/android_studio_ver.png"></a><br><br>
+          <a href="#eclipseversion"><img src="images/android_studio_ver_2.png"></a>
+          <div class="section_bdr"></div>
+      </div>
+    </section>
+    
+    <section id="importproject">
+      <div class="container">
+        <br><h2>How to open the project in Eclipse? -> <a style="color:#06F" href="#toc">top</a></h2><br>  
+        		<p>
+			<ol>
+				 				<li>Open Android Studio > Open an Existing Android Studio Project > Select Your Project build.gradle file > ok  </li>
+ 		<li> Select Project </li>
+			</ol>
+		</p> 
+          <a href="#importproject"><img src="images/import_1.png"></a><br><br>
+          <a href="#importproject"><img src="images/import_2.png"></a><br> 
+ 
+          <div class="section_bdr"></div>
+        
+      </div>
+    </section>
+    
+    <section id="packagename">
+      <div class="container">
+      	  <br><h2>How to change the package name? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+          		<p>
+			You can change it easily from Android Studio. Here are the steps: 
+			You can change it easily from Android Studio. Here are the steps: 
+			<ol>
+				<li>In the Project pane, click on the little gear icon.Uncheck/Deselect the Compact Empty Middle Packages option.</li>
+				<li>Your package directory will now be broken up in individual directories.</li>
+				<li>Individually select each directory you want to rename, and: Right-click itSelect RefactorClick on RenameIn the Pop-up dialog.</li>
+        <li>Click on Rename Package instead of Rename Directory Enter the new name and hit RefactorAllow a minute to let Android Studio update all changes.</li>
+        <li>Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</li><br>
+        
+        Note: When renaming com in Android Studio, it might give a warning. In such case, selectRename All.
+			</ol>			
+		</p> 
+              <a href="#packagename"><img src="images/packagename_1.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_2.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_3.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_4.png"></a><br><br>
+              <a href="#packagename"><img src="images/packagename_5.png"></a>
+
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="appname">
+      <div class="container">
+      	  <br><h2>How to change app name? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+          		<p>
+			<ol>
+			<ol>
+				<li>Open Android Studio >News Application> res > values > strings.xml</li> 
+				<li>Enter your app name inside <b>"app_name"</b> string tag:<br /><code>&lt;string name="app_name"&gt;<b>HDVideo</b>&lt;/string&gt;</code></li>
+ 
+			</ol>
+		</p>
+              <a href="#appname"><img src="images/appname_1.png"></a>  
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="serverconfig">
+      <div class="container">
+      	  <br><h2>How to Configure Webservice In Your Server? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<div style='float:right; padding:0 0 20px 20px'><iframe width="420" height="345" src="http://www.youtube.com/embed/WTGsKd0i2Ec" style='border:1px solid #aaa'></iframe></div>	
+		
+		<p>
+			<ol>
+				<li>First of all find the news_app  folder from the downloaded package.</li>
+				<li>Copy these folder and paste it in the htdocs  folder(if you have Wampp installed then put it into www)</li>
+				<li>Then create a database and import the database from the db folder.</li>
+				<li>4.Aftre creating database configure the connection file,which is in the includes folder of your package.<br>
+
+					<b>$serverIp="localhost"; <br> 
+					$userName="root";<br>
+					$password="";<br>
+					$dbname="news_db";<br></b>
+	
+				That’s all,now run the webservice : <b>http://localhost/news_app/index</b>
+				for <b>Live set up </b>Follow the video tutorial ahead.
+</li>
+			</ol>
+			
+		</p> 
+ 
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>   
+    
+	<section id="serverurl">
+      <div class="container">
+        <br><h2>Where to put Server Url in Application? -> <a style="color:#06F" href="#toc">top</a></h2>
+	<p>
+			<ol>
+			<ol>
+				<li>Select Project > go to com.example.util package > Constant.java Class</li>
+				<li> Open Constant.java</li>
+				<li> now if your Sever is http://abc.com so your service url like that <b>http://abc.com/api.php</b> and image path <b>http://abc.com/images</b></li>
+				
+			</ol>
+			</p>
+          <a href="#serverurl"><img src="images/serverurl_1.png"></a>
+          <div class="section_bdr"></div>
+      </div>
+    </section>
+	  
+	<section id="howtoadd">
+      <div class="container">
+        <br><h2>How to add category and its items into webservice? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+			<p style=" margin-bottom:0px !important">
+    
+		<b>open your admin panel</b></br>
+		 
+		<b>Now we first upload News Category</b>
+		<ol>
+			<li>Go to Manage News Category</li>
+			<li>Press New Category</li>
+ 		</ol>
+      
+      
+      <a href="#howtoadd"><img src="images/howtoadd_1.png"></a><br><br>
+      
+    <b>Now we upload News Category Details</b>
+		 <ol>
+			<li>Add News Category name</li>
+			<li>Choose Category Image</li>
+ 		</ol>
+      
+      <a href="#howtoadd"><img src="images/howtoadd_2.png"></a><br><br>
+
+        <b>Now we upload News List</b>
+		<ol>
+			<li>Go to News</li>
+			<li>Press Add News</li>
+ 		</ol>
+    
+         <a href="#howtoadd"><img src="images/howtoadd_3.png"></a><br><br>
+    
+        <b>Now we upload News List Details</b>
+		<ol>
+			<li>Select Category</li>
+			<li>Add News Heading</li>
+            <li>Add News Description</li>
+            <li>Add News Date</li>
+            <li>Select News Image</li>
+ 		</ol>
+     <a href="#howtoadd"><img src="images/howtoadd_4.png"></a><br><br>
+
+		
+	</p>
+ 
+          <div class="section_bdr"></div>
+      </div>
+    </section>>
+
+        
+    <section id="admob_id">
+      <div class="container">
+      	  <br><h2>How to change AdMob publisher id? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>
+		open your admin panel</br>
+		
+		<ol>
+			<li>Go to Manage App Settings</li>
+			<li>Choose your Company logo</li>
+			<li>Enter E-mail Address</li>
+			<li>Enter Company Web Address</li>
+			<li>Enter Description</li>
+		</ol>
+		
+		 
+		</p>
+              <a href="#about"><img src="images/about.png"></a><br>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="splash">
+      <div class="container">
+      	  <br><h2>How to change 'Splash Screen and Application Icon & More App Link'? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+              	<p>
+		<b>How To Change Application Icon</b>
+		<ol>
+			<li>Open Android Studio > News Application > res > drawable-mdpi > appicon.png</li>
+			<li>Rename your icon with appicon.png and paste in drawable-mdpi folder</li>
+		</ol>
+      <a href="#splash"><img src="images/appicon.png"></a><br><br>
+		
+		<b>How To Change Splash Screen</b>
+		<ol>
+			<li>Open Android Studio > News Application > res > drawable > splash.png</li>
+			<li>Rename your splash screen image  with splash.png and paste in drawable folder</li>
+		</ol>
+    <a href="#splash"><img src="images/appicon_1.png"></a><br><br>
+		
+		<b>How To Change More App Link</b>
+		<ol>
+		<li>Open Android Studio > News Application > res >values > strings.xml</li>
+		<li>Enter your Play Store Apps Link inside <b>"play_more_apps"</b> string tag:<br /><code>&lt;string name="play_more_apps"&gt;<b>Your Application Url</b>&lt;/string&gt;</code></li>
+		</ol>
+    <a href="#splash"><img src="images/appicon_2.png"></a><br><br>
+		
+	</p>
+ 
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+            <section id="parse">
+      <div class="container">
+      	  <br><h2>How to Change One Signal Notification App Id And Sender Id in Application? -> <a style="color:#06F" href="#toc">top</a></h2><br>
+              	<p>
+		<b>Get your Google Server API key and project number.</b><br>
+		  
+<a href='https://documentation.onesignal.com/docs/android-generating-a-gcm-push-notification-key' style="color:#06F" target="_blank">https://documentation.onesignal.com/docs/android-generating-a-gcm-push-notification-key</a><br><br>
+		
+		<b>How to Change One Signal App Id And Sender Id</b>
+		<ol>
+			<li>Open Android Studio > App > build.gradle(Module:app)</li>
+			<li>Enter your Onesignal App id inside<b>"onesignal_app_id"</b>  <br /><code> onesignal_app_id =<b>"Your onesignal_app_id"</b></code></li>
+      <li>Enter your Onesignal Google Project Number inside<b>"onesignal_google_project_number"</b>   <br /><code>  onesignal_google_project_number =<b>"Your onesignal_google_project_number"</b></code></li>
+		</ol>
+    <a href="#parse"><img src="images/notification_id.png"></a><br><br>
+ 		
+	</p>
+    
+    <section id="graphics">
+      <div class="container">
+      	  <br><h2>Change App all graphics -> <a style="color:#06F" href="#toc">top</a></h2><br>
+              		<p>You will find all image into /res/drawable-mdpi/,/res/drawable-hdpi/,/res/drawable-xhdpi/ folder. Just create your own graphics and replace those files. Create seperate graphics of different device screen sizes & place them into other drawble folders (drawable-hdpi & drawable-xhdpi) with same file name found at drawable-mdpi folder.  Check here for more information: <a style="color:#06F" href='http://developer.android.com/design/style/devices-displays.html' target='_blank'>Devices and Displays</a> & <a style="color:#06F" href='http://developer.android.com/guide/practices/screens_support.html' target='_blank'>Supporting Multiple Screens</a>.</p>
+              <a href="#graphics"><img src="images/Graphics_1.png"></a><br><br>
+              <a href="#graphics"><img src="images/Graphics_2.png"></a>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="showcase">
+      <div class="container">
+      	  <br><h2>Application Showcase in PlayStore -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>Once you will publish your app to Google Play or any other Android store, send us your app link. We will happy to showcase your app into our website & CodeCanyon page.</p>
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="rating">
+      <div class="container">
+      	  <br><h2>Rating -> <a style="color:#06F" href="#toc">top</a></h2><br>
+ 		<p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your CodeCanyon Menu > Download page.</p> 
+              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+        <section id="credits">
+      <div class="container">
+      	  <br><h2>Credits -> <a style="color:#06F" href="#toc">top</a></h2><br>
+		<p>I've used folowing sources into this app:
+		
+		<ul>
+			
+			<li><a style="color:#06F" href='http://actionbarsherlock.com/' target='_blank'>ActionBarSherlock</a></li>
+			<li>Cropper</li>
+			<li>Universal ImageLoader.jar</li>			
+		</ul>
+		
+		<hr>
+		
+		
+		
+		<p>Once again, thank you so much for purchasing this app. As I said at the beginning, I'd be glad to help you if you have any questions relating to this app. No guarantees, but I'll do my best to assist. If you have a more general question relating to the apps on CodeCanyon, you might consider visiting the "FAQ / Support" section and asking your question in the "Comments" section at CodeCanyon app detail page.</p> 
+		
+		<p class="append-bottom alt large"><strong>Vishal Parmar</strong><br /><strong><a style="color:#06F" href='http://www.viaviweb.in' target='_blank'>Viavi WebTech-India</a></strong></p>
+
+		<p><a style="color:#06F" href="#toc">Go To Table of Contents</a></p>              <div class="section_bdr"></div>
+        </ul>
+      </div>
+    </section>
+    
+    </div>
+
+
+    
+    <section id="four">
+    <div class="container">
+      <h3>Viavi News Application Screen Shots</h3>
+         <section>           
+          <p class="pt_bottom">Splash Screen</p>
+          <img src="images/Screenshot_1.png">
+          <hr>
+          
+        <section>
+           <p class="pt_bottom">Latest Screen</p>
+          <img src="images/Screenshot_2.png">
+          <hr>
+        
+        <section>
+          <p class="pt_bottom">Category Screen</p>
+          <img src="images/Screenshot_3.png">
+          <hr>
+          
+        <section>
+          <p class="pt_bottom">Category List Screen</p>
+          <img src="images/Screenshot_4.png">
+          <hr>
+        
+        <section>
+          <p class="pt_bottom">Details Screen</p>
+          <img src="images/Screenshot_5.png">
+          <hr>
+        
+        <section>
+          <p class="pt_bottom">Search Screen</p>
+          <img src="images/Screenshot_6.png">
+          <hr>
+        </section>
+        
+        <section>
+          <p class="pt_bottom">My Favorite Screen</p>
+          <img src="images/Screenshot_7.png">
+          <hr>
+        </section>
+        
+       </div> 
+    </section>
+  </div>
+        
+<section id="three">
+    <div class="container">
+      <h3>Monetization</h3>
+        <section>
+          <h4>AdMob Ad</h4>
+          <img src="images/admob.png">
+          <hr>
+        </div> 
+        
+     <div class="container">
+        <section>
+          <h4>Startapp Ad</h4>
+          <img src="images/startapp_ad_1.png"><br><br>
+          <h4>Slide Startapp Ad</h4>
+          <img src="images/startapp_ad_2.png"><br><br>
+          <hr>
+        </div>  
+        
+    </section>        
+          
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <ul class="copyright">
+        <li>
+          <h3>Vishal Parmar</h3>
+        </li>
+        <li><a href="http://www.viaviweb.in" target="_blank">Viavi WebTech-India</a></li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
+<script src="assets/js/main.js"></script>
+</body>
+</html></em>

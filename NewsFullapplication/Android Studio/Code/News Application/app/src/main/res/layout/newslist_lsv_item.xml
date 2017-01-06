@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.viaviapp.newsapplication"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_selector"
+    android:layout_margin="5dp"
+    android:orientation="horizontal" >
+
+    <com.example.util.RoundedImageView
+        android:id="@+id/img_newslist"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:scaleType="centerCrop"
+        app:border_color="@color/divider"
+        app:border_width="5dip"
+        app:corner_radius="30dip"
+        app:is_oval="true"
+        app:round_background="true" />
+
+    <TextView
+        android:id="@+id/txt_newslistheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/texthoverclr" />
+
+</LinearLayout>

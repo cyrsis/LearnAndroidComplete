@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="m_tab_clr">#F55C5E</color>
+    <color name="m_tab_select_accent_clr">#B74746</color>
+    <color name="m_color_primary_dark">#B74746</color>
+    <color name="background_color">#E7E7E7</color>
+    <color name="white">#ffffff</color>
+    <color name="divider">#f2f2f2</color>
+    <color name="text_color">#525252</color>
+    <color name="heading_bg">#272727</color>
+    <color name="heading_text_color">#ebebeb</color>
+    <color name="scrim">#42000000</color>
+    <color name="path_primary">#E62F17</color>
+    <color name="path_orange">#FF9500</color>
+    <color name="path_blue">#1774E6</color>
+    <color name="path_black">#403B36</color>
+    <color name="path_green">#5FB336</color>
+    <color name="path_purple">#49098A</color>
+    
+    <color name="primary_text">#212121</color>
+     
+</resources>

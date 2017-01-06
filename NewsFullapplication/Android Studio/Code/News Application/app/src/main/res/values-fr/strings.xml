@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nouvelles Android</string>
+    <string name="action_settings">paramètres</string>
+    <string name="hello_world">Bonjour le monde!</string>
+    
+	  <string name="img_no">Trouvé aucune Favorite</string>
+	  <string name="desc">desc</string>
+      <string name="menu_share">part</string>
+      <string name="menu_next">suivant</string>
+      <string name="menu_fav">Fav</string>
+	  <string name="menu_back">arrière</string>
+	  <string name="menu_about">sur</string>
+      <string name="menu_moreapp">plus App</string>
+      <string name="menu_rateapp">App taux</string>
+      <string name="search_hint">Astuce</string>
+      <string name="menu_search">recherche</string>
+    
+	  
+	    <!--jouer lien de l'application de magasin i.e plus d'applications -->
+    <string name="play_more_apps">https://play.google.com/store/search?q=vishalparmar+application</string>
+      
+      
+</resources>

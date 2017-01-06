@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androide Nachrichten</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="hello_world">Hallo Welt!</string>
+    
+	  <string name="img_no">Keine Favoriten gefunden</string>
+	  <string name="desc">ab</string>
+      <string name="menu_share">Aktie</string>
+      <string name="menu_next">nächste</string>
+      <string name="menu_fav">Fav</string>
+	  <string name="menu_back">zurück</string>
+	  <string name="menu_about">über</string>
+      <string name="menu_moreapp">Weitere App</string>
+      <string name="menu_rateapp">bewerten App</string>
+      <string name="search_hint">Tipps</string>
+      <string name="menu_search">Suche</string>
+      
+	    <!-- Speicher spielen Anwendungslink d. h. mehr Apps -->
+    <string name="play_more_apps">https://play.google.com/store/search?q=vishalparmar+application</string>
+      
+      
+</resources>

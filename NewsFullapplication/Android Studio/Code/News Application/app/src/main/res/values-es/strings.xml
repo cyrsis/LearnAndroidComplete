@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Noticias</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">¡Hola Mundo!</string>
+    
+	  <string name="img_no">No se encontró ninguna favorita</string>
+	  <string name="desc">desc</string>
+      <string name="menu_share">cuota</string>
+      <string name="menu_next">próximo</string>
+      <string name="menu_fav">Fav</string>
+	  <string name="menu_back">espalda</string>
+	  <string name="menu_about">acerca de</string>
+      <string name="menu_moreapp">Más App</string>
+      <string name="menu_rateapp">Cambio App</string>
+      <string name="search_hint">indirecta</string>
+      <string name="menu_search">búsqueda</string>
+      
+ 	  
+	    <!-- Play Store enlace de la aplicación es decir más aplicaciones -->
+    <string name="play_more_apps">https://play.google.com/store/search?q=vishalparmar+application</string>
+      
+      
+</resources>

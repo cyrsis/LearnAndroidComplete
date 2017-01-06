@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
+
+    <!-- About -->
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/about"
+        android:title="@string/menu_about"
+        app:showAsAction="always"/>
+
+    <!-- Rate App -->
+    <item
+        android:id="@+id/menu_rateapp"
+         android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_rateapp"/>
+
+    <!-- More App -->
+    <item
+        android:id="@+id/menu_moreapp"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_moreapp"/>
+
+ 
+ 
+
+</menu>

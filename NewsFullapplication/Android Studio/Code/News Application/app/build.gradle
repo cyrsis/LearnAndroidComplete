@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.viaviapp.newsapplication"
+
+        manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
+                                onesignal_app_id               : "b1972721-0ddc-470a-a5ab-46162a896b22",
+                                onesignal_google_project_number: "510636549177"]
+
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/res/color', 'src/main/res/drawable-hdpi', 'src/main/res/drawable-mdpi', 'src/main/res/drawable-xhdpi', 'src/main/res/layout', 'src/main/res/menu', 'src/main/res/values-ar', 'src/main/res/values-de', 'src/main/res/values-es', 'src/main/res/values-fr', 'src/main/res/values-sw600dp', 'src/main/res/values-sw720dp-land', 'src/main/res/values-v11', 'src/main/res/values-v14', 'src/main/res/xml']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.google.android.gms:play-services:7.0.0'
+    compile 'it.neokree:MaterialTabs:0.11'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.onesignal:OneSignal:2.+@aar'
+    compile files('libs/libGoogleAnalyticsServices.jar')
+    compile files('libs/StartAppInApp-3.1.0.jar')
+    compile 'com.ogaclejapan.arclayout:library:1.1.0@aar'
+}

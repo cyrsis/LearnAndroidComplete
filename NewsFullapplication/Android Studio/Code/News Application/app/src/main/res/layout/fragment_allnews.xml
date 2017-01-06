@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color" >
+
+    <ListView
+        android:id="@+id/lsv_allnews"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/transparent"
+        android:layout_margin="10dp"
+         android:dividerHeight="7dp">
+    </ListView>
+
+</LinearLayout>

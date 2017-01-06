@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">أخبار الروبوت</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="hello_world">مرحبا العالم!</string>
+    
+	  <string name="img_no">لم يتم العثور على المفضلة</string>
+	  <string name="desc">تنازليا</string>
+      <string name="menu_share">حصة</string>
+      <string name="menu_next">التالي</string>
+      <string name="menu_fav">الصوت العربي الحر</string>
+	  <string name="menu_back">ظهر</string>
+	  <string name="menu_about">حول</string>
+      <string name="menu_moreapp">مزيد من التطبيق</string>
+      <string name="menu_rateapp">معدل التطبيق</string>
+      <string name="search_hint">تلميح</string>
+      <string name="menu_search">بحث</string>
+      
+ 	  
+	    <!-- تلعب متجر الرابط تطبيق إيجيبت المزيد من التطبيقات -->
+    <string name="play_more_apps">https://play.google.com/store/search?q=vishalparmar+application</string>
+      
+      
+</resources>
