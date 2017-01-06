@@ -1,0 +1,29 @@
+<ion-view style="" class="categories-view" id="page7" title="Menu" >
+    <ion-content id="menu" padding="false">
+      <ion-slide-box>
+                    <ion-slide ng-repeat="slide in slideList" on-slide-changed="slideHasChanged($index)">
+                        <img ng-src="{{slide.image}}" style="width:380px;height:200px;margin:auto;display:block" >
+                        
+                    
+              
+                    </ion-slide>
+                </ion-slide-box>  
+        
+
+        
+
+    <div class="row categories-list animated zoomIn">
+      <div ng-repeat="item in cats" class="col col-50">
+        <a class="category" ui-sref="categories({id: item.id})">
+          <pre-img ratio="_1_1" helper-class="square-image">
+         
+             <img class="category-image" ng-src="{{item.image}}" spinner-on-load>
+             
+          </pre-img>
+          <div class="category-bg"></div>
+          <span class="category-title">{{item.name}}</span>
+        </a>
+      </div>
+    </div>
+	</ion-content>
+</ion-view>

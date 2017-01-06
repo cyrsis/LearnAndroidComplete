@@ -1,0 +1,97 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">My Delivery</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#" ng-click="logout()">Logout</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="#!/dashboard">Overview <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="#!/dashboard_category">Categories</a></li>
+            <li><a href="#!/dashboard_recipes">Recipes</a></li>
+            <li><a href="#!/dashboard_slider">Slider</a></li>
+            <li><a href="#!/dashboard_order">Orders</a></li>
+            <li><a href="#!/dashboard_users">Users</a></li>
+          </ul>
+         
+        </div>
+          <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Categories</h1>
+            <div class="row" ng-controller="DashCatCtrl">
+       
+   
+    <div class="table-responsive" ng-show="addShowForm">
+       
+       <a  href="#!/dashboard_add_category"> <button class="btn btn-success">Add</button></a>
+       <table class="table table-striped" >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                
+                <th>Action</th>
+            </tr> 
+           </thead>
+           <tbody>
+           <tr ng-repeat="cat in cats">
+               <td>{{cat.id}}</td>
+               <td>{{cat.name}}</td>
+               
+               <td><a class="btn btn-default" ng-click="ShowEditForm(cat)">Edit</a>
+                   <a class="btn btn-danger" ng-click="removeCat(cat)">Delete</a>
+               </td>
+            </tr> 
+           
+           </tbody>
+        
+        </table>
+         
+    </div>
+     <div class="col-md-5" ng-show="editShowForm">
+    <h3>Edit Category</h3>
+        <form ng-submit="editCat()">
+  <div class="form-group">
+    <label>Id</label>
+    <input type="text" class="form-control" ng-model="id"  placeholder="id">
+  
+  <label>Name</label>
+    <input type="text" class="form-control" ng-model="name"  placeholder="Category Name">
+  
+        <label>Image Link</label>
+    <input type="text" class="form-control" ng-model="image"  placeholder="image">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+   <button class="btn btn-danger" ng-click="cancelCat()">Cancel</button>        
+</form>
+    
+     </div>
+
+</div>
+
+            
+        </div>
+              </div>
+      </div>
+    </div>
+
+
+
+

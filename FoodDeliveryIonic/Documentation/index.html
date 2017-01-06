@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>My Food Delivery Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;My Food Delivery&rdquo; Documentation by &ldquo;Hani Hamrouni&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;My Food Delivery&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 08/12/2016<br>
+					By: Hani Hamrouni<br>
+					Email: <a href="mailto:work@hamrounihani.com">work@hamrounihani.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/hanikingweb">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#db">Firebase Database</a></li>
+			<li><a href="#ionic">Ionic config</a></li>
+			<li><a href="#Backend">Backend</a></li>
+			<li><a href="#video">Full Video Tutorial</a></li>
+			
+		</ol>
+		
+		<hr>
+		
+		<h3 id="db"><strong>A) Firebase Database</strong> - <a href="#toc">top</a></h3>
+		
+        <p>	1- Create a free <a href="http://firebase.google.com"> Firebase account </a>  </p>	 
+		
+        <p> 2- Create new project</p>	 
+        
+        <img src="assets/images/firebase_project.png" width="800">
+        
+        <p> 3- Go to Database tab and import json file from "/upload/db.json"</p>
+        <img src="assets/images/firebase_import.png" width="800">
+        <p> 4- Go to RULES tab change it to</p>
+        
+        <xmp>{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    
+      
+  }
+}</xmp>
+
+        <img src="assets/images/firebase_rules.png" width="800">
+		<h3 id="ionic"><strong>B) Ionic config</strong> - <a href="#toc">top</a></h3>
+
+		<p> 1- Get firebase config</p>
+        <p>     a- Go to Project settings</p>
+        <img src="assets/images/firebase_settings.png" width="800">
+        <p>     b-Go to Add firebase to your web app</p>
+                    - Copie (apiKey,authDomain,databaseURL,storageBucket)
+        <p> 2- Open MyFoodDevlivery/www/index.html</p>
+        <p> 3- Change (apiKey,authDomain,databaseURL,storageBucket) Line 43</p>
+        <p> 4- Open MyFoodDevlivery/www/js/service.js and MyFoodDevlivery/www/js/controller.js Line 172</p>
+        <p> 3- Change  <xmp><your-firebase-app> </xmp> by your Firbabase databaseURL</p>
+        <p> 5- Change App name and widget id in MyFoodDevlivery/config.xml</p>   
+        <p> 6- Create new app <a href="http://apps.ionic.io"> here</a> and get the ID </p>
+        <img src="assets/images/ionic_cloud.png" width="800">
+        <p> 7- Change the ID and app name in MyFoodDevlivery/ionic.project</p>
+        
+		<hr>
+		
+		<h3 id="Backend"><strong>C) Backend</strong> - <a href="#toc">top</a></h3>
+		
+        <p>1- Change <xmp><your-firebase-app></xmp> by your Firbabase databaseURL in upload/backend/app/dashboard/dashboard.js and upload/backend/app/dashboard/dashboard_category.js in Line (6,7,14,84,94,154,203,236,238,270,278,306,308) </p>
+        <p>2- Upload the Upload folder to your hosting </p>
+        <p>3- Default email and password is email: admin@hamrounihani.com password: codecanyon </p>
+        <p>4- Change the login and password in backend/app/data/user.php</p>
+        <p>5- Is very easy to to customize your app add,edit catergory recipe and users</p>
+		
+		<hr>
+		<h3 id="video"><strong>D) Full Video Tutorial</strong> - <a href="#toc">top</a></h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WT49KZN_XDk" frameborder="0" allowfullscreen></iframe>
+		<hr>
+		<p>Once again, thank you so much for purchasing this code. As I said at the beginning, I'd be glad to help you if you have any questions relating to this code. No guarantees, but I'll do my best to assist. If you have a more general question relating to the code on Codecanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Hani Hamrouni</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

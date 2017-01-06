@@ -1,0 +1,143 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">My Delivery</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#" ng-click="logout()">Logout</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="#!/dashboard">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#!/dashboard_category">Categories</a></li>
+            <li><a href="#!/dashboard_recipes">Recipes</a></li>
+            <li><a href="#!/dashboard_slider">Slider</a></li>
+            <li  class="active"><a href="#!/dashboard_order">Orders</a></li>
+            <li><a href="#!/dashboard_users">Users</a></li>
+          </ul>
+         
+        </div>
+          <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Orders</h1>
+            <div class="row" ng-controller="OrderCtrl">
+       
+   
+    <div class="table-responsive" ng-show="addShowForm">
+       <table class="table table-striped" >
+        <thead>
+            <tr>
+               
+                <th>User</th>
+                <th>Recipe</th>
+                <th>Qty</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr> 
+           </thead>
+           <tbody>
+           <tr ng-repeat="order in orders">
+               <td>{{order.user_name}}</td>
+               <td>{{order.product_name}}</td>
+               <td>{{order.item_qty}}</td>
+               <td>{{order.status}}</td>
+               
+               
+                   <td><a class="btn btn-default" ng-click="ShowEditForm(order)">Details</a>
+                   
+               </td>
+            </tr> 
+           
+           </tbody>
+        
+        </table>
+         
+    </div>
+      <div class="table-responsive" ng-show="editShowForm">
+          
+<table class="table table-striped">
+    <tr>
+        <td>Order Time</td>
+        <td>{{time | date:'yyyy-MM-dd HH:mm:ss'}}</td>
+    </tr>
+          <tr>
+              
+ <td>Product Name</td>
+    <td>{{product_name}}</td>
+    </tr>
+    
+    <tr>
+        <td>Product Qty</td>
+        <td>{{item_qty}}</td>
+    </tr>
+    
+    <tr>
+        <td>Payment Method</td>
+        <td>{{payment}}</td>
+    </tr>
+    
+    <tr>
+        <td>User Name</td>
+        <td>{{name}}</td>
+    </tr>
+    
+    <tr>
+        <td>User Adresse</td>
+        <td>{{adress}}</td>
+    </tr>
+   <tr ng-repeat="add in addresses">
+        <td>User phone</td>
+        <td>{{add.phone}}</td>
+    </tr>
+    
+    
+    
+    
+    <tr>
+        
+        <td colspan="2">
+            <center>
+           <a class="btn btn-warning" ng-click="ConfirmedStatus('Confirmed')">Confirmed</a>
+           <a class="btn btn-success" ng-click="DeliveredStatus('Delivered')">Delivered</a>
+           <a class="btn btn-danger" ng-click="RefusedStatus('Refused')">Refused</a>
+           
+            </center>
+        </td>
+        
+    </tr>
+ 
+</table>
+   
+   
+   
+          
+          
+    
+     </div>
+
+</div>
+
+            
+        </div>
+              </div>
+      </div>
+    </div>
+
+
+
+

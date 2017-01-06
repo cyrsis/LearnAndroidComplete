@@ -1,0 +1,31 @@
+<ion-view style="" class=" " id="page7" title="Menu">
+   <ion-content id="categories-content" ng-init="loadoo()">
+        <!--list section-->
+        <div class="categories-list animated fadeInUpBig">
+            <!--location item section-->
+            <a ui-sref="recipeView({pid: item.$id})" nav-direction="enter">
+            <div class="categories-item" ng-repeat="item in menu">
+                
+                <div class="categories-img" style="background-image:url('{{item.image}}');background-size: 360px 120px;position: relative;">
+                   
+                </div></a>
+                <div class="categories-content row">
+                    <div class="col-90">
+                        
+                        <h1>
+                            {{item.name}}
+                        </h1>
+
+                        <p>
+                            <i class="fa fa-clock-o"></i> {{item.shippingtime}}
+                        </p>
+                    </div>
+                    <div class="col-20">
+                        <h1>${{item.price}}</h1>
+                        
+                    </div>
+                </div>
+            </div><!--end location item section--> 
+       </div>
+    </ion-content>
+</ion-view>

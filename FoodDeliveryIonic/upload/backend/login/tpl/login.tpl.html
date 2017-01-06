@@ -1,0 +1,28 @@
+<!--
+    you can substitue the span of reauth email for a input with the email and
+    include the remember me checkbox
+    -->
+<style>
+    body, html {
+ height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+    }
+</style>
+
+    <div class="container" ng-controller="loginCtrl">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="img/logo.png"/>
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" name="form1">
+                
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus ng-model="user.mail" >
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required ng-model="user.pass">
+                
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" ng-disabled="form1.$invalid" ng-click="login(user)">Sign in</button>
+                
+            </form><!-- /form -->
+           
+        </div><!-- /card-container -->
+    </div><!-- /container -->

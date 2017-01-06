@@ -1,0 +1,39 @@
+<ion-view style="" class=" " id="page9" title="My Cart">
+    <ion-content class="has-header" padding="true">
+
+     
+
+     <div class="list">
+<div ng-repeat="item in cart">
+    <a class="item item-thumbnail-left" href="#">
+      <img src="{{item.item_image}}">
+      {{item.item_name}}
+      <p>Poduct Qty {{item.item_qty}}</p>
+      <p>Poduct Price {{item.item_price}}</p>
+        <div class="button-bar" style="box-shadow: none;">
+              <button ng-click="removeFromCart(item.$id)" class="button button-assertive button-block button-small icon ion-android-delete" >                       </button>
+              <button class="button button-stable button-clear button-block button-small icon ion-plus" ng-click="inc(item.$id)"></button>
+              <button class="button button-stable button-clear button-block button-small">{{item.item_qty}}</button>
+              <button class="button button-stable button-clear button-block  icon ion-minus" ng-click="dec(item.$id)" ></button>
+            </div>
+    </a>
+</div>
+</div>
+ <div>
+       <div class="list card">
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-cash"></i>
+    <p>Qty {{get_qty()}}  Total =
+          <strong> $ {{total_amount}}</strong>
+        </p>
+  </a>
+
+</div> 
+      </div>
+      <button ng-click="checkout()" class="button button-balanced button-block ">Check Out</button>
+
+
+    </ion-content>
+</ion-view>
+

@@ -1,0 +1,118 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">My Delivery</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#" ng-click="logout()">Logout</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="#!/dashboard">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#!/dashboard_category">Categories</a></li>
+            <li><a href="#!/dashboard_recipes">Recipes</a></li>
+            <li><a href="#!/dashboard_slider">Slider</a></li>
+            <li><a href="#!/dashboard_order">Orders</a></li>
+            <li class="active"><a href="#!/dashboard_users">Users</a></li>
+          </ul>
+         
+        </div>
+          <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Users</h1>
+            <div class="row" ng-controller="UsersCtrl">
+       
+   
+    <div class="table-responsive" ng-show="addShowForm">
+       <table class="table table-striped" >
+        <thead>
+            <tr>
+               
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr> 
+           </thead>
+           <tbody>
+           <tr ng-repeat="user in users">
+               <td>{{user.name}}</td>
+               <td>{{user.email}}</td>
+               <td>{{user.telephone}}</td>
+               
+               <td><a class="btn btn-default" ng-click="ShowEditForm(user)">Details</a>
+                   
+               </td>
+            </tr> 
+           
+           </tbody>
+        
+        </table>
+         
+    </div>
+     
+   <div class="table-responsive" ng-show="editShowForm">
+          
+<table class="table table-striped">
+    
+     <tr>
+        <td>Id</td>
+        <td>{{id}}</td>
+    </tr>     
+    
+    <tr>
+        <td>Name</td>
+        <td>{{name}}</td>
+    </tr>
+    
+    <tr>
+        <td>Email</td>
+        <td>{{email}}</td>
+    </tr>
+    
+    <tr>
+        <td>Telephone</td>
+        <td>{{telephone}}</td>
+    </tr>
+    
+    <tr ng-repeat="add in addresses">
+        <td>User Adresse</td>
+        <td>{{add.address}}</td>
+    </tr>
+ 
+    
+    
+ 
+</table>
+   
+   
+   <button class="btn btn-danger" ng-click="cancelRec()">Cancel</button>
+          
+          
+    
+     </div>
+</div>
+
+            
+        </div>
+              </div>
+      </div>
+    </div>
+
+
+
+

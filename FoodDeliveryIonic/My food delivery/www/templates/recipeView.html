@@ -1,0 +1,121 @@
+<ion-view view-title="{{singleRecipe.name}}">
+  
+    <ion-content id="product-detail-content" >
+        <md-content>
+            <!--product tabs section-->
+            
+                <!--product tab detail section--><md-tab label="Detail">
+               
+                    <md-content id="product-detail-tab-detail">
+                        <div class="toolbar-image-cover product animated fadeIn" style="background-image: url('{{singleRecipe.image}}');">
+                        </div>
+                      
+
+
+                        <div class="detail-form">
+                            <div class="header">
+                                <h12>{{singleRecipe.name}}</h12>
+
+                                
+                                
+                            </div>
+                            <!--product tab detail price section-->
+                            
+                            <div class="product-detail-price">
+                                <div class="left">
+    <span
+                                        class="font-hot-sale"> ${{singleRecipe.price}} </span>
+                                </div>
+                                <div class="right">
+                                    <div class="addto">
+ <a  ng-click="addToCart(singleRecipe)"> <button class="btn btn-success">Add To Cart</button></a>
+                                   
+                                </div>
+                                    </div>
+                            </div><!--end product tab detail price section-->
+                            
+       
+
+                            <!--product tab detail review section-->
+                     <p> {{singleRecipe.description}}</p>        
+                        <div class="product-detail-shipping row">
+                                <div class="col-67">
+                                   
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i> : {{singleRecipe.shippingtime}}</p>                         
+        
+
+                                </div>
+                                <div class="col-33">
+                                   
+                                             <p><i class="fa fa-truck" aria-hidden="true"></i> : Free</p>                        
+                                    
+                                </div>
+                            </div>      
+                            
+                            <!--end product tab detail review section-->
+
+                            <!--product tab detail shipping section-->
+                           
+                        </div>
+                    </md-content>
+            </md-tab>
+                <!--end product tab detail section-->
+
+                <!--product tab product section-->
+                
+        </md-content>
+    </ion-content>
+    <!--end product detail section-->
+
+    <!--loading progress-->
+    <div id="product-detail-loading-progress" class="loading-progress fade-in">
+        <ion-spinner ng-if="!isAndroid" class="progress-circular"></ion-spinner>
+        <md-progress-circular ng-if="isAndroid" md-mode="indeterminate"></md-progress-circular>
+    </div> <!--end loading progress-->
+
+    <!--canvas for save image to local devise-->
+    <canvas id="imgCanvas" class="display-none"></canvas>
+
+    <!--angular template section-->
+    <script type="text/ng-template" id="bottom-sheet-shared.html">
+        <md-bottom-sheet class="md-grid">
+            <!--list section-->
+            <md-list id="bottom-sheet-grid-md-list">
+                <md-list-item>
+                    <a class="md-grid-item-content" ng-click="sharedFacebook()">
+                        <md-icon md-svg-src="facebook"></md-icon>
+                        <div class="md-grid-text"> Facebook</div>
+                    </a>
+                </md-list-item>
+                <md-list-item>
+                    <a class="md-grid-item-content" ng-click="sharedTwitter()">
+                        <md-icon md-svg-src="twitter"></md-icon>
+                        <div class="md-grid-text"> Twitter</div>
+                    </a>
+                </md-list-item>
+                <md-list-item>
+                    <a class="md-grid-item-content" ng-click="sharedMail()">
+                        <md-icon md-svg-src="mail"></md-icon>
+                        <div class="md-grid-text"> Mail</div>
+                    </a>
+                </md-list-item>
+                <md-list-item>
+                    <a class="md-grid-item-content" ng-click="saveImage()">
+                        <i class="ion-android-image"></i>
+
+                        <div class="md-grid-text"> Save Image</div>
+                    </a>
+                </md-list-item>
+                <md-list-item>
+                    <a class="md-grid-item-content" ng-click="sharedMore()">
+                        <md-icon md-svg-src="share-arrow"></md-icon>
+                        <div class="md-grid-text"> More</div>
+                    </a>
+                </md-list-item>
+            </md-list> <!--end list section-->
+        </md-bottom-sheet>
+    </script>
+   
+    <!--end angular template section-->
+
+</ion-view>
